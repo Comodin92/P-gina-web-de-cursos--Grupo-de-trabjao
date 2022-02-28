@@ -1,0 +1,70 @@
+/*Tablet vertical*/
+@media screen and (min-width: 48em) and (max-width: 60em ) {
+
+    .container-formulario-datos{
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .caja-formulario{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .caja-dato-contacto{
+   
+        width: 100%;
+    }
+    main h2{
+        text-align: center;
+        margin: auto;
+        margin-top: 1em;
+    }
+    .item-nombreApellido input, .item-edad input,.item-correo input, .item-numero input,
+    .item-consulta textarea, .input-enviar{
+        width: 100%;
+        text-align: center;
+        border-radius: 0.625em/*10px*/;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 0.3125em /*5px*/;
+        border: 0.0625em/*1px*/ solid blanchedalmond ;
+        background-color: black ;
+        }
+        .contenido-caja-dato{
+            background-color: cadetblue;
+        }
+     
+}
+
+/*Celular*/
+@media screen and (max-width: 47em){
+    .container-formulario-datos{
+        flex-direction: column;
+        margin: auto;
+        
+    }
+    .caja-formulario{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .caja-dato-contacto{
+
+        width: 100%;
+    }
+
+    .item-nombreApellido input, .item-edad input,.item-correo input, .item-numero input,
+    .item-consulta textarea, .input-enviar{
+        width: 100%;
+        text-align: center;
+        border-radius: 0.625em/*10px*/;
+        align-items: center;
+        margin: auto;
+        margin-bottom: 0.3125em /*5px*/;
+        border: 0.0625em/*1px*/ solid chartreuse;
+}
+  #contacto-emotico{
+      justify-content: center;
+  }
+}

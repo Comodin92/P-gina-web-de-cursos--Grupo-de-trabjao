@@ -1,0 +1,174 @@
+
+/*Tablet*/
+@media screen and (min-width: 48em) and (max-width: 60em){
+
+    
+    #vistaPreviaR, #DePerso{
+        font-size: 80%;
+        color: seashell;
+    }
+    .contenedor-previa{
+        background-color: burlywood;
+        height: 40px;
+        width: 70%;
+        margin: auto;
+    }
+    .contenedor-personalizacion{
+        width: 100%;
+    }
+    .contenedor-personalizacion h2{
+
+        text-align: center;
+        padding-bottom:1em;
+    }
+    .contenedor-destinatario input{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        height: 50px;
+        background-color: black;
+        color: blanchedalmond;
+    }
+     h4{ 
+
+        text-align: center;
+        padding: 5px;
+    }
+    .contenedor{
+        flex-direction: column;
+        width: calc(33%-5px);
+        padding: 10px;
+    }
+    .contenedor-color{
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+   
+    #color-red, #color-blue, #color-white, #color-black, #color-green{
+        width: 200px;
+    }
+    .contenedor-responsive{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+ 
+    .contenedor-miniatura{
+        margin: auto;
+    }
+    .contenedor-tam-fuente{
+       justify-content:  space-around;
+    }
+    .contenedor-ubicacion{
+        align-items: center;
+    justify-content: space-evenly;
+    }
+    .contenedor-fondo{
+        justify-content:space-around;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .contenedor-input input{
+        width: 100%;
+        color:black;
+    }
+    .contenedor-monto input{
+
+        color:black;
+    }
+}
+
+/*Celular */
+@media screen and (max-width: 47em){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    #vistaPreviaR, #DePerso{
+        font-size: 70%;
+        color: seashell;
+    }
+    .contenedor-previa{
+        background-color: seagreen;
+        height: 40px;
+        width: 70%;
+        margin: auto;
+    }
+    .contenedor-personalizacion{
+        width: 100%;
+    }
+    .contenedor-personalizacion h2{
+
+        text-align: center;
+        padding-bottom:1em;
+    }
+    .contenedor-destinatario input{
+        display: flex;
+        width: 60%;
+        margin: auto;
+        height: 50px;
+        background-color: black;
+        color: blanchedalmond;
+    }
+     h4{ 
+
+        text-align: center;
+        padding: 5px;
+    }
+    .contenedor{
+        flex-direction: column;
+        width: calc(33%-5px);
+        padding: 10px;
+    }
+    .contenedor-color{
+        flex-wrap: wrap;
+        margin: auto;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #circulo-red, #circulo-blue, #circulo-white, #circulo-black, #circulo-green{
+        border-radius: 0;
+        width:40px;
+    }
+    #color-red, #color-blue, #color-white, #color-black, #color-green{
+        width: 200px;
+    }
+    .contenedor-responsive{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+    }
+ 
+    .contenedor-miniatura{
+        margin: auto;
+    }
+    .contenedor-tam-fuente{
+       justify-content:  space-around;
+    }
+    .contenedor-ubicacion{
+        align-items: center;
+    justify-content: space-evenly;
+    }
+    .contenedor-fondo{
+        justify-content:space-around;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+    }
+    .contenedor-input input{
+        width: 100%;
+        background-color: black;
+        color: white;
+    }
+    .contenedor-monto input{
+
+        background-color: black;
+        color: white;
+    }
+}

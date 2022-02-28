@@ -1,0 +1,94 @@
+.contenedor-contenidos{
+    font-size: 20px;
+}
+
+.unidad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    font-size: 1em;
+    padding: 1rem;
+}
+
+.unidad i{
+    font-size: 1.4em;
+}
+
+.unidad span{
+    display: inline-block;
+}
+
+.contenedor-unidad div{
+    padding: 1rem;
+}
+
+.contenedor-unidad span{
+    display: inline-block;
+}
+
+.clase {
+    display: grid;
+    grid-template-areas: 'nombre duracion reloj checked';
+    grid-template-columns: 2fr 1fr repeat(2, 0.5fr);
+    background-color: #dedede;
+    font-size: 0.8em;
+}
+
+.clase div{
+    padding: 0;
+}
+
+.clase i{
+    font-size: 1.3em;
+}
+
+.nombre{
+    grid-area: nombre;
+    display: flex;
+    align-items: center;
+}
+
+.nombre span{
+    margin-left: 0.4rem;
+}
+
+.duracion{
+    grid-area: duracion;
+    display: none;
+}
+
+.reloj{
+    grid-area: reloj;
+    text-align: left;
+    display: none;
+}
+
+.checked{
+    grid-area: checked;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #000;
+}
+
+@media screen and (min-width: 47em){
+    .duracion{
+        display: flex;
+        text-align: right;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .reloj{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 0.3em;
+    }
+}
+
+.checkeado{
+    color: #71DB18;
+}

@@ -1,0 +1,98 @@
+.footer{
+	background-color: #2A2D34;
+	grid-area: footer;
+	min-height: 2rem;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-around;
+	margin-top: 1em;
+}
+
+.cursos-info ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.cursos-info{
+	display: none;
+}
+
+.link-utiles ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.social ul{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.footer div{
+    margin: 1rem;
+    text-align: center;
+}
+
+.footer h4{
+	display: none;
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+.footer ul{
+	font-family: "Montserrat", sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.footer li{
+	list-style: none;
+	padding: 0.7rem;
+}
+
+.footer a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.footer a:hover{
+	font-size: 1.2em;
+	color: #C31FFF;
+	font-weight: bold;
+}
+
+.footer i{
+	font-size: 2em;
+}
+
+@media screen and (min-width: 47em){
+	.footer{
+		flex-direction: row;
+	}
+
+	.footer div{
+		width: calc(50% - 1em);
+	}
+
+	.social h4, .link-utiles h4{
+		display: block;
+	}
+}
+
+@media screen and (min-width: 60em){
+	.footer div{
+		width: calc(33% - 1em);
+	}
+
+	.cursos-info, .cursos-info h4{
+		display: block;
+	}
+}
