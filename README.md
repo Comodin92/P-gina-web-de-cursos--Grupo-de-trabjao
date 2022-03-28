@@ -1,5 +1,5 @@
 ## Pagina-web-de-cursos--Grupo-de-trabajo
-Proyecto realizado en el transcurso de la materia Programación Web Responsive- Enlace: https://dweb1unlam.netlify.app/
+Proyecto realizado en el transcurso de la materia Programación Web Responsive- Enlace: https://comodin92.github.io/P-gina-web-de-cursos--Grupo-de-trabjao/
 Detalle: Simulación de Páginas de cursos 
 
 
